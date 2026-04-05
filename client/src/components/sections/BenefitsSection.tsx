@@ -1,10 +1,9 @@
 /*
  * Design: Tropical Rationalist
- * Benefits: 6 cards in a 2x3 grid (desktop) or stacked (mobile).
- * Clean white cards with teal icon accents. Practical copy.
+ * Benefits: 5 cards. Clean white cards with teal icon accents. Practical copy.
  */
 import { SectionReveal } from "@/components/SectionReveal";
-import { Moon, Zap, Users, Box, Clock, MapPin } from "lucide-react";
+import { Moon, Zap, Box, Clock, MapPin } from "lucide-react";
 
 const benefits = [
   {
@@ -16,11 +15,6 @@ const benefits = [
     icon: Zap,
     title: "Use less unnecessary aircon",
     description: "Reduce the urge to chill the entire room just to get comfortable in bed.",
-  },
-  {
-    icon: Users,
-    title: "Better for shared rooms",
-    description: "Cool one sleeping area instead of forcing the whole room colder. Great for couples with different preferences.",
   },
   {
     icon: Box,

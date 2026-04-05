@@ -2,12 +2,9 @@
  * Design: Tropical Rationalist
  * Problem Section: Warm amber tint for "problem" feel.
  * 3-column comparison: Aircon vs Fan vs Sleep Cool.
- * Visual comparison card with generated image.
  */
 import { SectionReveal } from "@/components/SectionReveal";
 import { AirVent, Fan, Target } from "lucide-react";
-
-const COMPARISON_IMAGE = "https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/comparison-visual-e3bsXmEtzxHKt8AkWvLzUS.webp";
 
 const comparisons = [
   {
@@ -47,7 +44,7 @@ export function ProblemSection() {
         </SectionReveal>
 
         {/* 3-column comparison */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-12 md:mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {comparisons.map((item, i) => (
             <SectionReveal key={i} delay={i * 100}>
               <div
@@ -66,18 +63,6 @@ export function ProblemSection() {
             </SectionReveal>
           ))}
         </div>
-
-        {/* Visual comparison */}
-        <SectionReveal>
-          <div className="rounded-2xl overflow-hidden shadow-lg border border-slate-200/80">
-            <img
-              src={COMPARISON_IMAGE}
-              alt="Comparison: whole-room cooling vs targeted bed cooling — showing how Sleep Cool focuses airflow on the bed instead of wasting energy cooling the entire room"
-              className="w-full object-cover"
-              loading="lazy"
-            />
-          </div>
-        </SectionReveal>
       </div>
     </section>
   );

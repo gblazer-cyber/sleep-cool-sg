@@ -1,6 +1,6 @@
 /*
  * Design: Tropical Rationalist — Scandinavian-Tropical Fusion
- * Hero: Asymmetric 60/40 split. Large headline left, product image right.
+ * Hero: Asymmetric 60/40 split. Large headline left, product photos + video right.
  * Warm off-white bg. Teal accents. DM Sans Bold headlines.
  * Three benefit bullets below hero copy.
  */
@@ -9,7 +9,8 @@ import { WHATSAPP_URL } from "@shared/const";
 import { SectionReveal } from "@/components/SectionReveal";
 import { Wind, Thermometer, Home } from "lucide-react";
 
-const HERO_IMAGE = "https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/hero-product-THn53ttoz4oGJRHkHQCMVc.webp";
+const PRODUCT_FRONT = "https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/product-front_b0c75b09.webp";
+const PRODUCT_SIDE = "https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/product-side_b0273c23.webp";
 
 const benefits = [
   { icon: Thermometer, text: "Cool the bed, not the whole room" },
@@ -25,7 +26,7 @@ export function HeroSection() {
 
       <div className="container relative">
         <div className="flex flex-col lg:flex-row lg:items-center gap-10 lg:gap-16">
-          {/* Left: Copy — 60% */}
+          {/* Left: Copy — 55% */}
           <div className="lg:w-[55%] flex flex-col gap-6">
             <SectionReveal>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-slate-900">
@@ -78,16 +79,24 @@ export function HeroSection() {
             </SectionReveal>
           </div>
 
-          {/* Right: Product image — 40% */}
+          {/* Right: Real product photos — 45% */}
           <SectionReveal delay={200} className="lg:w-[45%]">
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-br from-teal-200/30 to-amber-100/30 rounded-3xl blur-2xl" />
-              <img
-                src={HERO_IMAGE}
-                alt="Sleep Cool bed cooling system in a Singapore bedroom — compact unit on nightstand with airflow duct extending into bedding"
-                className="relative rounded-2xl shadow-xl w-full object-cover aspect-[4/3]"
-                loading="eager"
-              />
+              <div className="relative grid grid-cols-2 gap-3">
+                <img
+                  src={PRODUCT_FRONT}
+                  alt="Sleep Cool SG bed cooling unit — front view showing the compact airflow system"
+                  className="rounded-2xl shadow-lg w-full object-cover aspect-[3/4] bg-slate-100"
+                  loading="eager"
+                />
+                <img
+                  src={PRODUCT_SIDE}
+                  alt="Sleep Cool SG bed cooling unit — side view showing the duct and airflow direction"
+                  className="rounded-2xl shadow-lg w-full object-cover aspect-[3/4] bg-slate-100"
+                  loading="eager"
+                />
+              </div>
             </div>
           </SectionReveal>
         </div>

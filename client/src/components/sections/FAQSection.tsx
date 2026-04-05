@@ -34,14 +34,14 @@ const faqs = [
       "Setup depends on your bed configuration — mattress type, bed frame, and room layout. Message us on WhatsApp with your setup details and we'll advise on the best fit.",
   },
   {
-    question: "Is this suitable for couples?",
+    question: "How much does it cost?",
     answer:
-      "Yes. One of the key advantages is that it can cool one side of the bed without affecting the other. This is especially useful for couples with different temperature preferences.",
+      "It varies depending on your setup, but pricing is generally around $150–200 SGD. Message us on WhatsApp for more details.",
   },
   {
     question: "Do I need installation?",
     answer:
-      "No professional installation is needed. The unit is designed to be set up easily at home. We'll walk you through the process when you order.",
+      "No. It is directly plug and play.",
   },
   {
     question: "How do I order?",

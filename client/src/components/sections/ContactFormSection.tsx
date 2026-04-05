@@ -21,7 +21,7 @@ export function ContactFormSection() {
     const text = encodeURIComponent(
       `Hi, I'm interested in Sleep Cool SG.\n\nName: ${formData.name}\nPhone: ${formData.phone}\nBed size: ${formData.bedSize}\nMessage: ${formData.message}`
     );
-    window.open(`https://wa.me/6500000000?text=${text}`, "_blank");
+    window.open(`https://wa.me/6580205462?text=${text}`, "_blank");
     toast.success("Opening WhatsApp with your details...");
   };
 

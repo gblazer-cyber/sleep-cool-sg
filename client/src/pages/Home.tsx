@@ -17,7 +17,6 @@ import { WhoItsForSection } from "@/components/sections/WhoItsForSection";
 import { TrustSection } from "@/components/sections/TrustSection";
 import { FAQSection } from "@/components/sections/FAQSection";
 import { FinalCTASection } from "@/components/sections/FinalCTASection";
-import { ContactFormSection } from "@/components/sections/ContactFormSection";
 
 export default function Home() {
   return (
@@ -40,7 +39,7 @@ export default function Home() {
         {/* 5. Benefits */}
         <BenefitsSection />
 
-        {/* 6. Who it's for */}
+        {/* 6. Who it's for + Video */}
         <WhoItsForSection />
 
         {/* 7. Trust / Social proof */}
@@ -51,9 +50,6 @@ export default function Home() {
 
         {/* 9. Final CTA */}
         <FinalCTASection />
-
-        {/* 10. Contact form (secondary) */}
-        <ContactFormSection />
       </main>
 
       <Footer />

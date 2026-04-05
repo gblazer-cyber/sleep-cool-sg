@@ -1,7 +1,7 @@
 /*
  * Design: Tropical Rationalist
- * Who It's For: Audience tiles in a 2x2 grid. Warm amber accents for "hot sleeper" feel.
- * Teal check icons. Concise audience descriptions.
+ * Who It's For: Audience tiles + YouTube video embed.
+ * No couples reference. Teal check icons.
  */
 import { SectionReveal } from "@/components/SectionReveal";
 import { WhatsAppIcon } from "@/components/WhatsAppIcon";
@@ -11,27 +11,28 @@ import { Check } from "lucide-react";
 const audiences = [
   "People who get too warm in bed at night",
   "Households trying to cut back on aircon use",
-  "Couples with different temperature preferences",
   "Anyone who wants a smarter way to sleep cool",
 ];
-
-const BEDROOM_IMAGE = "https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/bedroom-comfort-emoCvofR6K8nWzPDmD8oZT.webp";
 
 export function WhoItsForSection() {
   return (
     <section className="py-16 md:py-24 bg-gradient-to-b from-background to-teal-50/30">
       <div className="container">
         <div className="flex flex-col lg:flex-row lg:items-center gap-10 lg:gap-16">
-          {/* Image */}
+          {/* Video */}
           <SectionReveal className="lg:w-1/2">
             <div className="relative">
               <div className="absolute -inset-3 bg-gradient-to-br from-teal-200/20 to-amber-100/20 rounded-3xl blur-xl" />
-              <img
-                src={BEDROOM_IMAGE}
-                alt="Person sleeping comfortably in a Singapore apartment with Sleep Cool system"
-                className="relative rounded-2xl shadow-lg w-full object-cover aspect-[4/3]"
-                loading="lazy"
-              />
+              <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-[9/16] max-w-[320px] mx-auto lg:mx-0">
+                <iframe
+                  src="https://www.youtube.com/embed/Skf6kJInp-w"
+                  title="Sleep Cool SG product demo"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </SectionReveal>
 
