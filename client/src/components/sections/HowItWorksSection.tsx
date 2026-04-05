@@ -1,13 +1,11 @@
 /*
  * Design: Tropical Rationalist
  * How It Works: 3-step numbered layout. Cool teal bg section.
- * Product diagram image. Clean, informative, practical.
+ * Clean, informative, practical.
  */
 import { SectionReveal } from "@/components/SectionReveal";
 import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 import { WHATSAPP_URL } from "@shared/const";
-
-const HOW_IT_WORKS_IMAGE = "https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/how-it-works-mk9Dmu9T3p6g4fXVzDoHcR.webp";
 
 const steps = [
   {
@@ -46,7 +44,7 @@ export function HowItWorksSection() {
         </SectionReveal>
 
         {/* 3-step layout */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 md:mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {steps.map((step, i) => (
             <SectionReveal key={i} delay={i * 120}>
               <div className="relative bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-slate-200/80 h-full hover:shadow-md transition-shadow duration-300">
@@ -62,21 +60,9 @@ export function HowItWorksSection() {
           ))}
         </div>
 
-        {/* Product diagram */}
-        <SectionReveal>
-          <div className="rounded-2xl overflow-hidden shadow-lg border border-slate-200/80 bg-white">
-            <img
-              src={HOW_IT_WORKS_IMAGE}
-              alt="How Sleep Cool works — diagram showing the compact cooling unit, flexible duct directing airflow under bedding, and the cool sleeping zone"
-              className="w-full object-cover"
-              loading="lazy"
-            />
-          </div>
-        </SectionReveal>
-
         {/* CTA */}
         <SectionReveal delay={200}>
-          <div className="text-center mt-10">
+          <div className="text-center mt-12 md:mt-16">
             <a
               href={WHATSAPP_URL}
               target="_blank"
