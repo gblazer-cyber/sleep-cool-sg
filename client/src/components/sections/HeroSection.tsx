@@ -83,17 +83,12 @@ export function HeroSection() {
           <SectionReveal delay={200} className="lg:w-[45%]">
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-br from-teal-200/30 to-amber-100/30 rounded-3xl blur-2xl" />
-              <div className="relative grid grid-cols-2 gap-3">
+              <div className="relative">
                 <img
                   src={PRODUCT_FRONT}
-                  alt="Sleep Cool SG bed cooling unit — front view showing the compact airflow system"
-                  className="rounded-2xl shadow-lg w-full object-cover aspect-[3/4] bg-white"
-                  loading="eager"
-                />
-                <img
-                  src={PRODUCT_SIDE}
-                  alt="Sleep Cool SG bed cooling unit — side view showing the duct and airflow direction"
-                  className="rounded-2xl shadow-lg w-full object-cover aspect-[3/4] bg-white"
+                  alt="Sleep Cool SG bed cooling unit — studio product photo"
+                  className="rounded-2xl shadow-xl w-full object-contain bg-white"
+                  style={{ maxHeight: "520px" }}
                   loading="eager"
                 />
               </div>
