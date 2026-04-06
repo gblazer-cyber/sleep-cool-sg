@@ -9,8 +9,8 @@ import { WHATSAPP_URL } from "@shared/const";
 import { SectionReveal } from "@/components/SectionReveal";
 import { Wind, Thermometer, Home } from "lucide-react";
 
-const PRODUCT_FRONT = "https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/product-front_b0c75b09.webp";
-const PRODUCT_SIDE = "https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/product-side_b0273c23.webp";
+const PRODUCT_FRONT = "https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/product-studio-front-kXRWyY5gMwemxZbaQxckEf.webp";
+const PRODUCT_SIDE = "https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/product-studio-side-cff7RdPi3PT3ghfR2qhy3w.webp";
 
 const benefits = [
   { icon: Thermometer, text: "Cool the bed, not the whole room" },
@@ -87,13 +87,13 @@ export function HeroSection() {
                 <img
                   src={PRODUCT_FRONT}
                   alt="Sleep Cool SG bed cooling unit — front view showing the compact airflow system"
-                  className="rounded-2xl shadow-lg w-full object-cover aspect-[3/4] bg-slate-100"
+                  className="rounded-2xl shadow-lg w-full object-cover aspect-[3/4] bg-white"
                   loading="eager"
                 />
                 <img
                   src={PRODUCT_SIDE}
                   alt="Sleep Cool SG bed cooling unit — side view showing the duct and airflow direction"
-                  className="rounded-2xl shadow-lg w-full object-cover aspect-[3/4] bg-slate-100"
+                  className="rounded-2xl shadow-lg w-full object-cover aspect-[3/4] bg-white"
                   loading="eager"
                 />
               </div>
