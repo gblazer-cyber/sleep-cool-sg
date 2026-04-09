@@ -36,7 +36,7 @@ const faqs = [
   {
     question: "How much does it cost?",
     answer:
-      "It varies depending on your setup, but pricing is generally around $150–200 SGD. Message us on WhatsApp for more details.",
+      "$150 SGD. Message us on WhatsApp for more details.",
   },
   {
     question: "Do I need installation?",
