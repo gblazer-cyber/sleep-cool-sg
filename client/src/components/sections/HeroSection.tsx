@@ -42,9 +42,14 @@ export function HeroSection() {
             </SectionReveal>
 
             <SectionReveal delay={150}>
-              <p className="text-sm font-medium text-amber-600 tracking-wide uppercase">
-                Built for hot nights in Singapore
-              </p>
+              <div className="flex items-center gap-3">
+                <p className="text-sm font-medium text-amber-600 tracking-wide uppercase">
+                  Built for hot nights in Singapore
+                </p>
+                <div className="inline-block bg-red-100 text-red-700 px-3 py-1 rounded-full text-xs font-bold">
+                  Opening Special: $99
+                </div>
+              </div>
             </SectionReveal>
 
             <SectionReveal delay={200}>

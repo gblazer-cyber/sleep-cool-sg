@@ -16,42 +16,17 @@ const faqs = [
   {
     question: "What does Sleep Cool do?",
     answer:
-      "Sleep Cool is a compact airflow system that sends cooler air directly into your bed. Instead of cooling the whole room, it targets the sleeping zone — so you stay comfortable without running the aircon all night.",
-  },
-  {
-    question: "Does it replace air-conditioning?",
-    answer:
-      "It's not designed to replace your aircon entirely. Think of it as a way to reduce how much you rely on aircon at night. Many people find they can set the aircon higher or turn it off earlier when using targeted bed cooling.",
-  },
-  {
-    question: "Is it noisy?",
-    answer:
-      "The system is designed to run quietly during sleep. Noise levels are comparable to a quiet fan. If you'd like more details, message us on WhatsApp and we'll share what to expect.",
-  },
-  {
-    question: "Can it work with my bed setup?",
-    answer:
-      "Setup depends on your bed configuration — mattress type, bed frame, and room layout. Message us on WhatsApp with your setup details and we'll advise on the best fit.",
-  },
-  {
-    question: "How much does it cost?",
-    answer:
-      "$150 SGD. Message us on WhatsApp for more details.",
+      "Sleep Cool is a compact airflow system that sends cooler air directly into your bed. Instead of cooling the whole room, it targets the sleeping zone — so you stay comfortable at night without relying on the aircon all night.",
   },
   {
     question: "Do I need installation?",
     answer:
-      "No. It is directly plug and play.",
+      "No. It is directly plug and play. Just position it beside your bed, tuck the duct under your sheets, and plug it in.",
   },
   {
-    question: "How do I order?",
+    question: "How much does it cost?",
     answer:
-      "Message us on WhatsApp to check availability, pricing, and fit for your bed. We handle orders directly so we can make sure you get the right setup.",
-  },
-  {
-    question: "Can I message first before buying?",
-    answer:
-      "Absolutely. We encourage it. Send us a message on WhatsApp to ask anything — no pressure, no obligation. We're happy to help you figure out if this is right for you.",
+      "Opening special: $99 SGD (U.P. $150). Message us on WhatsApp to order.",
   },
 ];
 
@@ -62,7 +37,7 @@ export function FAQSection() {
         <SectionReveal>
           <div className="max-w-2xl mx-auto text-center mb-12 md:mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Questions people will ask
+              Quick answers
             </h2>
           </div>
         </SectionReveal>
