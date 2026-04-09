@@ -14,6 +14,7 @@ import { SingaporeSection } from "@/components/sections/SingaporeSection";
 import { HowItWorksSection } from "@/components/sections/HowItWorksSection";
 import { BenefitsSection } from "@/components/sections/BenefitsSection";
 import { WhoItsForSection } from "@/components/sections/WhoItsForSection";
+import { CostSavingsSection } from "@/components/sections/CostSavingsSection";
 import { TrustSection } from "@/components/sections/TrustSection";
 import { FAQSection } from "@/components/sections/FAQSection";
 import { FinalCTASection } from "@/components/sections/FinalCTASection";
@@ -39,16 +40,19 @@ export default function Home() {
         {/* 5. Benefits */}
         <BenefitsSection />
 
-        {/* 6. Who it's for + Video */}
+        {/* 6. Cost savings calculator */}
+        <CostSavingsSection />
+
+        {/* 7. Who it's for + Video */}
         <WhoItsForSection />
 
-        {/* 7. Trust / Social proof */}
+        {/* 8. Trust / Social proof */}
         <TrustSection />
 
-        {/* 8. FAQ */}
+        {/* 9. FAQ */}
         <FAQSection />
 
-        {/* 9. Final CTA */}
+        {/* 10. Final CTA */}
         <FinalCTASection />
       </main>
 
