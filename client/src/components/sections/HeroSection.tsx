@@ -1,22 +1,12 @@
 /*
  * Design: Tropical Rationalist — Scandinavian-Tropical Fusion
- * Hero: Asymmetric 60/40 split. Large headline left, product photos + video right.
+ * Hero: Asymmetric layout. Headline + copy left, YouTube video right.
  * Warm off-white bg. Teal accents. DM Sans Bold headlines.
- * Three benefit bullets below hero copy.
+ * "Built for hot sleepers in Singapore" tagline.
  */
 import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 import { WHATSAPP_URL } from "@shared/const";
 import { SectionReveal } from "@/components/SectionReveal";
-import { Wind, Thermometer, Home } from "lucide-react";
-
-const PRODUCT_FRONT = "https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/product-studio-front-kXRWyY5gMwemxZbaQxckEf.webp";
-const PRODUCT_SIDE = "https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/product-studio-side-cff7RdPi3PT3ghfR2qhy3w.webp";
-
-const benefits = [
-  { icon: Thermometer, text: "Cool the bed, not the whole room" },
-  { icon: Wind, text: "Better comfort with less aircon reliance" },
-  { icon: Home, text: "Compact setup for Singapore homes" },
-];
 
 export function HeroSection() {
   return (
@@ -37,18 +27,13 @@ export function HeroSection() {
 
             <SectionReveal delay={100}>
               <p className="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-xl">
-                Stop paying to cool an empty room. Sleep Cool sends cooling airflow directly into your bed, so you stay comfortable at night without relying on the aircon all night.
+                Built for hot sleepers in Singapore. Cool your bed, not your room. Save up to $900/year on electricity.
               </p>
             </SectionReveal>
 
             <SectionReveal delay={150}>
-              <div className="flex items-center gap-3">
-                <p className="text-sm font-medium text-amber-600 tracking-wide uppercase">
-                  Built for hot nights in Singapore
-                </p>
-                <div className="inline-block bg-red-100 text-red-700 px-3 py-1 rounded-full text-xs font-bold">
-                  Opening Special: $99
-                </div>
+              <div className="inline-block bg-red-100 text-red-700 px-4 py-2 rounded-full text-sm font-bold w-fit">
+                Opening Special: $99 (U.P. $150)
               </div>
             </SectionReveal>
 
@@ -63,40 +48,37 @@ export function HeroSection() {
                   <WhatsAppIcon className="w-5 h-5" />
                   Chat on WhatsApp
                 </a>
-                <a href="#how-it-works" className="btn-secondary-cta">
-                  See how it works
-                </a>
               </div>
             </SectionReveal>
 
-            {/* Benefit bullets */}
+            {/* Quick facts */}
             <SectionReveal delay={300}>
-              <div className="flex flex-col sm:flex-row gap-4 mt-4">
-                {benefits.map((b, i) => (
-                  <div key={i} className="flex items-center gap-2.5 text-sm text-slate-700">
-                    <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-teal-100 text-teal-700 shrink-0">
-                      <b.icon className="w-4 h-4" />
-                    </div>
-                    <span className="font-medium">{b.text}</span>
-                  </div>
-                ))}
+              <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-200">
+                <div className="flex items-center gap-2">
+                  <span className="text-2xl font-bold text-teal-700">60W</span>
+                  <span className="text-sm text-slate-600">Energy efficient</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-2xl font-bold text-teal-700">$0.15</span>
+                  <span className="text-sm text-slate-600">Cost per night</span>
+                </div>
               </div>
             </SectionReveal>
           </div>
 
-          {/* Right: Real product photos — 45% */}
+          {/* Right: YouTube Video — 45% */}
           <SectionReveal delay={200} className="lg:w-[45%]">
-            <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-br from-teal-200/30 to-amber-100/30 rounded-3xl blur-2xl" />
-              <div className="relative">
-                <img
-                  src={PRODUCT_FRONT}
-                  alt="Sleep Cool SG bed cooling unit — studio product photo"
-                  className="rounded-2xl shadow-xl w-full object-contain bg-white"
-                  style={{ maxHeight: "520px" }}
-                  loading="eager"
-                />
-              </div>
+            <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-xl bg-slate-900">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/Skf6kJInp-w?feature=share"
+                title="Sleep Cool SG Product Demo"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="absolute inset-0"
+              />
             </div>
           </SectionReveal>
         </div>

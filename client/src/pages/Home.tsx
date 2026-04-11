@@ -13,7 +13,7 @@ import { ProblemSection } from "@/components/sections/ProblemSection";
 import { SingaporeSection } from "@/components/sections/SingaporeSection";
 import { HowItWorksSection } from "@/components/sections/HowItWorksSection";
 import { BenefitsSection } from "@/components/sections/BenefitsSection";
-import { WhoItsForSection } from "@/components/sections/WhoItsForSection";
+import { ProductGallerySection } from "@/components/sections/ProductGallerySection";
 import { CostSavingsSection } from "@/components/sections/CostSavingsSection";
 import { TrustSection } from "@/components/sections/TrustSection";
 import { FAQSection } from "@/components/sections/FAQSection";
@@ -40,11 +40,11 @@ export default function Home() {
         {/* 5. Benefits */}
         <BenefitsSection />
 
-        {/* 6. Cost savings calculator */}
-        <CostSavingsSection />
+        {/* 6. Product Gallery */}
+        <ProductGallerySection />
 
-        {/* 7. Who it's for + Video */}
-        <WhoItsForSection />
+        {/* 7. Cost savings calculator */}
+        <CostSavingsSection />
 
         {/* 8. Trust / Social proof */}
         <TrustSection />
