@@ -35,12 +35,13 @@ export function Navbar() {
     >
       <nav className="container flex items-center justify-between h-16 md:h-18">
         {/* Logo */}
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center gap-2 font-bold text-lg tracking-tight text-foreground">
           <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/pasted_file_p9Kc8q_image_ae018007.png"
-            alt="Sleep Cool SG"
-            className="h-10 object-contain"
+            src="https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/pasted_file_OBP3ie_image_7f4500e0.png"
+            alt="Sleep Cool SG Logo"
+            className="w-8 h-8 object-contain"
           />
+          <span className="hidden sm:inline text-slate-900">{BRAND_NAME}</span>
         </a>
 
         {/* Desktop nav */}
