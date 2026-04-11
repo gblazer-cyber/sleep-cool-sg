@@ -21,8 +21,8 @@ export function HeroSection() {
             <SectionReveal>
               <img
                 src="https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/pasted_file_p9Kc8q_image_ae018007.png"
-                alt="Sleep Cool SG Logo"
-                className="h-24 object-contain mb-4"
+                alt="Sleep Cool SG"
+                className="h-32 object-contain mb-6"
               />
             </SectionReveal>
 
