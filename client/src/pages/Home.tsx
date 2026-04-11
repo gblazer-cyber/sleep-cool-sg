@@ -15,7 +15,7 @@ import { HowItWorksSection } from "@/components/sections/HowItWorksSection";
 import { BenefitsSection } from "@/components/sections/BenefitsSection";
 import { ProductGallerySection } from "@/components/sections/ProductGallerySection";
 import { CostSavingsSection } from "@/components/sections/CostSavingsSection";
-import { TrustSection } from "@/components/sections/TrustSection";
+import { TrialGuaranteeSection } from "@/components/sections/TrialGuaranteeSection";
 import { FAQSection } from "@/components/sections/FAQSection";
 import { FinalCTASection } from "@/components/sections/FinalCTASection";
 
@@ -25,34 +25,39 @@ export default function Home() {
       <Navbar />
 
       <main className="pb-20 md:pb-0">
-        {/* 1. Hero */}
+        {/* 1. Opening Special Banner */}
+        <div className="bg-red-50 border-b-2 border-red-200 py-4 text-center">
+          <p className="text-sm font-bold text-red-700">🎉 OPENING SPECIAL: $99 (U.P. $150)</p>
+        </div>
+
+        {/* 2. Hero with Video */}
         <HeroSection />
 
-        {/* 2. Why Singapore */}
+        {/* 3. Cool Your Bed, Not Your Room */}
         <SingaporeSection />
 
-        {/* 3. Cost savings calculator */}
-        <CostSavingsSection />
-
-        {/* 4. Problem */}
-        <ProblemSection />
-
-        {/* 5. How it works */}
-        <HowItWorksSection />
-
-        {/* 6. Benefits */}
-        <BenefitsSection />
-
-        {/* 7. Product Gallery */}
+        {/* 4. Product Gallery */}
         <ProductGallerySection />
 
-        {/* 8. Trust / Social proof */}
-        <TrustSection />
+        {/* 5. Hotter Nights, Higher Bills */}
+        <ProblemSection />
 
-        {/* 9. FAQ */}
+        {/* 6. See Your Savings */}
+        <CostSavingsSection />
+
+        {/* 7. Your Room Is Not The Problem */}
+        <HowItWorksSection />
+
+        {/* 8. Why People Will Want This */}
+        <BenefitsSection />
+
+        {/* 9. Trial & Guarantee */}
+        <TrialGuaranteeSection />
+
+        {/* 10. FAQ */}
         <FAQSection />
 
-        {/* 10. Final CTA */}
+        {/* 11. Final CTA */}
         <FinalCTASection />
       </main>
 

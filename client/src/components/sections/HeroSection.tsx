@@ -72,7 +72,7 @@ export function HeroSection() {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/Skf6kJInp-w?feature=share"
+                src="https://www.youtube.com/embed/Skf6kJInp-w"
                 title="Sleep Cool SG Product Demo"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
