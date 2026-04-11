@@ -28,23 +28,23 @@ export default function Home() {
         {/* 1. Hero */}
         <HeroSection />
 
-        {/* 2. Problem */}
-        <ProblemSection />
-
-        {/* 3. Why Singapore */}
+        {/* 2. Why Singapore */}
         <SingaporeSection />
 
-        {/* 4. How it works */}
+        {/* 3. Cost savings calculator */}
+        <CostSavingsSection />
+
+        {/* 4. Problem */}
+        <ProblemSection />
+
+        {/* 5. How it works */}
         <HowItWorksSection />
 
-        {/* 5. Benefits */}
+        {/* 6. Benefits */}
         <BenefitsSection />
 
-        {/* 6. Product Gallery */}
+        {/* 7. Product Gallery */}
         <ProductGallerySection />
-
-        {/* 7. Cost savings calculator */}
-        <CostSavingsSection />
 
         {/* 8. Trust / Social proof */}
         <TrustSection />
