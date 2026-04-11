@@ -13,9 +13,11 @@ export function Footer() {
           {/* Brand */}
           <div className="flex flex-col gap-4 max-w-sm">
             <div className="flex items-center gap-2 font-bold text-lg text-white">
-              <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-teal-600 text-white text-sm font-bold">
-                SC
-              </span>
+              <img
+                src="https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/pasted_file_OBP3ie_image_7f4500e0.png"
+                alt="Sleep Cool SG Logo"
+                className="w-8 h-8 object-contain"
+              />
               {BRAND_NAME}
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
