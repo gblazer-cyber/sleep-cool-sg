@@ -19,6 +19,14 @@ export function HeroSection() {
           {/* Left: Copy — 55% */}
           <div className="lg:w-[55%] flex flex-col gap-6">
             <SectionReveal>
+              <img
+                src="https://d2xsxph8kpxj0f.cloudfront.net/103006489/Ysomh8sanPtsvbbp3smSHg/pasted_file_p9Kc8q_image_ae018007.png"
+                alt="Sleep Cool SG Logo"
+                className="h-24 object-contain mb-4"
+              />
+            </SectionReveal>
+
+            <SectionReveal>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-slate-900">
                 Sleep cool.{" "}
                 <span className="text-teal-700">Spend less.</span>
