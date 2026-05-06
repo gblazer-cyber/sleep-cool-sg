@@ -20,14 +20,14 @@ export function HeroSection() {
           <div className="lg:w-[55%] flex flex-col gap-6">
             <SectionReveal>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-slate-900">
-                Sleep cool.{" "}
-                <span className="text-teal-700">Spend less.</span>
+                Better bed{" "}
+                <span className="text-teal-700">airflow.</span>
               </h1>
             </SectionReveal>
 
             <SectionReveal delay={100}>
               <p className="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-xl">
-                Built for hot sleepers in Singapore. Cool your bed, not your room. Save up to $900/year on electricity.
+                A bed airflow system that circulates air, removes trapped heat, and improves ventilation under your sheets. Built for hot sleepers in Singapore. Save up to $900/year on electricity.
               </p>
             </SectionReveal>
 

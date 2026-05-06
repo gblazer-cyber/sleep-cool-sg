@@ -201,7 +201,7 @@ export function CostSavingsCalculator() {
             </div>
 
             <p className="text-xs text-slate-600 leading-relaxed">
-              Cools only your bed. Targeted comfort, minimal energy use.
+              Circulates air under your sheets. Removes trapped heat, improves ventilation, minimal energy use.
             </p>
           </div>
         </Card>
@@ -240,7 +240,7 @@ export function CostSavingsCalculator() {
           Why pay 20× more to cool an empty room?
         </h3>
         <p className="text-slate-600 max-w-2xl mx-auto leading-relaxed">
-          Air conditioning cools your entire room all night. Sleep Cool cools only your bed. You get the same comfort at a fraction of the cost.
+          Air conditioning cools your entire room all night. Sleep Cool is a bed airflow system that circulates air and removes trapped heat under your sheets. You get the same comfort with better ventilation at a fraction of the cost.
         </p>
         <p className="text-xs text-slate-500 italic">
           Based on typical Singapore electricity rates and usage patterns. Actual savings may vary.

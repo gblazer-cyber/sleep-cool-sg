@@ -9,12 +9,12 @@ const benefits = [
   {
     icon: Moon,
     title: "Sleep more comfortably",
-    description: "Targeted airflow where you actually feel heat at night. Cool the sleeping zone, not the ceiling.",
+    description: "Better airflow and ventilation under your sheets removes trapped heat, so you sleep more comfortably all night.",
   },
   {
     icon: Zap,
     title: "Use less unnecessary aircon",
-    description: "Reduce the urge to chill the entire room just to get comfortable in bed.",
+    description: "With better bed ventilation, you don't need to run the aircon as much. Save up to $900/year on electricity.",
   },
   {
     icon: Box,

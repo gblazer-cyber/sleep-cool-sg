@@ -23,11 +23,11 @@ export function TrustSection() {
           <SectionReveal>
             <div className="text-center mb-10">
               <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-                Built to solve a problem many Singaporeans{" "}
-                <span className="text-teal-700">already know</span>
+                Better bed airflow.{" "}
+                <span className="text-teal-700">Better sleep.</span>
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Too hot to sleep. Too expensive to run the aircon all night. Sleep Cool is built for people who are tired of choosing between comfort and cost.
+                Sleep Cool is a bed airflow system designed for hot sleepers in Singapore. It circulates air, removes trapped heat, and improves ventilation under your sheets — so you sleep better without running the aircon all night.
               </p>
             </div>
           </SectionReveal>
@@ -42,7 +42,7 @@ export function TrustSection() {
                 <div>
                   <h3 className="text-lg font-bold text-slate-900 mb-2">A note from the team</h3>
                   <p className="text-slate-600 leading-relaxed">
-                    We're building and refining this product for real bedrooms in Singapore. We know the problem because we live with it too. Message us on WhatsApp to ask about fit, setup, and early orders. We're happy to chat — no pressure.
+                    We're building and refining this bed airflow system for real bedrooms in Singapore. We know the problem of trapped heat and poor ventilation because we live with it too. Message us on WhatsApp to ask about fit, setup, and early orders. We're happy to chat — no pressure.
                   </p>
                 </div>
               </div>

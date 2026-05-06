@@ -21,7 +21,7 @@ export function Footer() {
               {BRAND_NAME}
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
-              A compact bed-cooling system built for hot nights in Singapore. Stay comfortable without running the aircon all night.
+              A bed airflow system that circulates air, removes trapped heat, and improves ventilation. Built for hot sleepers in Singapore.
             </p>
           </div>
 
@@ -52,7 +52,7 @@ export function Footer() {
         {/* Disclaimer */}
         <div className="mt-10 pt-8 border-t border-slate-700/50">
           <p className="text-xs text-slate-500 leading-relaxed">
-            Product details may vary depending on setup and bed configuration. Sleep Cool SG is a Singapore-based startup building practical cooling solutions for better sleep.
+            Product details may vary depending on setup and bed configuration. Sleep Cool SG is a Singapore-based startup building practical bed airflow systems for better sleep and lower electricity costs.
           </p>
           <p className="text-xs text-slate-600 mt-3">
             &copy; {new Date().getFullYear()} {BRAND_NAME}. All rights reserved.

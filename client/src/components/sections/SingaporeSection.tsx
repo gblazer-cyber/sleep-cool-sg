@@ -16,15 +16,15 @@ const cards = [
   },
   {
     icon: Wind,
-    title: "Uses focused airflow where it matters",
+    title: "Circulates air where it matters",
     description:
-      "Instead of cooling an entire room, the system directs airflow to your sleeping zone — where you actually feel the heat.",
+      "Instead of cooling an entire room, the system circulates air directly under your sheets — removing trapped heat and improving ventilation where you sleep.",
   },
   {
     icon: Leaf,
-    title: "Helps reduce wasteful cooling habits",
+    title: "Reduces unnecessary aircon use",
     description:
-      "Many households run the aircon all night just to sleep. Sleep Cool offers a more targeted way to stay comfortable.",
+      "Better bed airflow and ventilation means you don't need to run the aircon as much. Sleep comfortably while using less electricity.",
   },
 ];
 

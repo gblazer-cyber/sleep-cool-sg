@@ -12,19 +12,19 @@ const steps = [
     number: "01",
     title: "Place the unit beside your bed",
     description:
-      "The compact cooling unit sits on your nightstand or on the floor next to your bed. It takes up minimal space.",
+      "The compact airflow unit sits on your nightstand or on the floor next to your bed. No installation, no drilling, no modifications needed.",
   },
   {
     number: "02",
-    title: "Air is directed into your bedding",
+    title: "Air circulates under your sheets",
     description:
-      "A flexible duct channels cooler air from the unit directly into your bed, right where you sleep.",
+      "A flexible duct channels air directly under your sheets and blankets, circulating it to remove trapped heat and improve ventilation.",
   },
   {
     number: "03",
-    title: "Sleep cooler without overcooling the room",
+    title: "Sleep better without overcooling the room",
     description:
-      "You feel the cooling where it matters — in bed — without having to chill the entire room all night.",
+      "Better airflow and ventilation in your bed means you sleep more comfortably without running the aircon all night. Lower electricity costs, better sleep.",
   },
 ];
 
@@ -35,10 +35,10 @@ export function HowItWorksSection() {
         <SectionReveal>
           <div className="max-w-2xl mx-auto text-center mb-12 md:mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Cool your bed, <span className="text-teal-700">not your room.</span>
+              A bed airflow <span className="text-teal-700">system that works.</span>
             </h2>
             <p className="text-lg text-slate-600 leading-relaxed">
-              Sleep Cool is a compact airflow system that sends cooler air directly into your bed, so you sleep more comfortably without running the aircon all night.
+              Sleep Cool circulates air directly under your sheets, removing trapped heat and improving ventilation where you sleep. No installation needed — just place it beside your bed and enjoy better sleep comfort.
             </p>
           </div>
         </SectionReveal>

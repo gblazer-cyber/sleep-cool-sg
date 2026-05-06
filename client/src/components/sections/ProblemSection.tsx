@@ -10,19 +10,19 @@ const comparisons = [
   {
     icon: AirVent,
     title: "Air-conditioning",
-    description: "Cools the whole room — expensive and often more than you need just to sleep.",
+    description: "Cools the entire room — expensive and wasteful when you only need better airflow and ventilation in your bed.",
     accent: "bg-amber-100 text-amber-700",
   },
   {
     icon: Fan,
     title: "Ceiling / standing fan",
-    description: "Moves warm air around. Helps a little, but doesn't actually cool where you feel the heat.",
+    description: "Moves air around the room. Doesn't target trapped heat under blankets or improve ventilation where you actually sleep.",
     accent: "bg-amber-50 text-amber-600",
   },
   {
     icon: Target,
     title: "Sleep Cool",
-    description: "Sends cooler airflow directly into your bed. Targets the sleeping zone, not the whole room.",
+    description: "A bed airflow system that circulates air directly under your sheets, removing trapped heat and improving ventilation where you sleep.",
     accent: "bg-teal-100 text-teal-700",
   },
 ];
@@ -34,11 +34,11 @@ export function ProblemSection() {
         <SectionReveal>
           <div className="max-w-2xl mx-auto text-center mb-12 md:mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Your room is not the problem.{" "}
-              <span className="text-amber-600">Your bed is.</span>
+              Trapped heat under your blanket.{" "}
+              <span className="text-amber-600">That's the problem.</span>
             </h2>
             <p className="text-lg text-slate-600 leading-relaxed">
-              At night, many people turn the aircon lower and lower just to fall asleep comfortably. But cooling the whole room for hours is expensive and inefficient — especially when what you really want is relief where your body actually feels the heat: in bed.
+              Heat gets trapped under blankets and sheets, making it uncomfortable to sleep. Many people turn the aircon lower and lower just to escape the trapped heat. But cooling the whole room for hours is expensive and inefficient — especially when what you really need is better airflow and ventilation right where you sleep.
             </p>
           </div>
         </SectionReveal>
